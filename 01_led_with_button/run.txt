@@ -1,0 +1,1 @@
+setenv autoload no && setenv ipaddr 192.168.1.2 && setenv serverip 192.168.1.1 && tftp 0x80000000 appGpio.bin && go 0x80000000
